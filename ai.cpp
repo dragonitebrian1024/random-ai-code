@@ -7,8 +7,11 @@
 #include "ai.h"
 #include <iostream>
 
-int main()
+
+
+int main(int argc, char** argv)
 {
+	AI::mainn();
 	return 0;
 }
 
