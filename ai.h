@@ -30,10 +30,10 @@ public:
 	bool Z{};
 	bool isRunning;
 	bool running() { return isRunning; }
-	void mainn();
+	static void mainn();
 	float holdingtime;
-	float pressespermillisecond;
-	int how_many_times;
-	int x;
-	int randomkey;
+	static float pressespermillisecond;
+	static int how_many_times;
+	static int x;
+	static int randomkey;
 };
